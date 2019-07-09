@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<suite name="Suite1">
+	<test name="verifyTitle">
+		<classess>
+			<class name="com.sscs.testing.ProjecrCertTest"></class>
+		</classess>
+	</test>
+</suite>
