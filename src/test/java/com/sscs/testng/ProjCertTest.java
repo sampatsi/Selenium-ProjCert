@@ -19,10 +19,10 @@ public class ProjCertTest {
 		String os = System.getProperty("os.name").toLowerCase();
 
 		if (os.contains("mac")) {
-			System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", System.getProperty("usre.dir") + "/chromedriver.exe");
 
 		} else {
-			System.setProperty("webdriver.chrome.driver", "\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 
 		}
 		driver.manage().window().maximize();
